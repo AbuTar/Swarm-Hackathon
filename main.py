@@ -7,7 +7,7 @@ import time
 
 # ------------------------ CONFIGURATION ------------------------
 BOT_ID = 3  
-HOST = "192.168.0.101"
+HOST = "192.168.0.116"
 PORT = 80
 USE_SOCKETS = True
 
