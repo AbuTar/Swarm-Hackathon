@@ -7,19 +7,19 @@ import threading
 
 # ── Config ───────────────────────────────────────────────────────────────────
 
-BOT_IDS = [10]
+BOT_IDS = [3]
 
 BOT_IPS = {
-    10: "192.168.0.101",  # <-- update this to your bot's actual IP
+    3: "192.168.0.116",  # <-- update this to your bot's actual IP
 }
 
 PORT          = 80
-CAMERA_INDEX  = 0
+CAMERA_INDEX  = 1
 USE_SOCKETS   = True  # Set True once network is confirmed working
 
-SEND_INTERVAL    = 0.25
-REACH_DIST       = 45
-ANGLE_TOLERANCE  = 15
+SEND_INTERVAL    = 0.1
+REACH_DIST       = 10
+ANGLE_TOLERANCE  = 35
 
 WINDOW_NAME = "Path Control"
 
